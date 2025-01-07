@@ -86,7 +86,7 @@ SELECT *,
 		ELSE NULL
 	END as description
 FROM product 
-WHERE product_size REGEXP '\d+';
+WHERE product_size REGEXP '\d+'
 
 -- UNION
 /* 1. Using a UNION, write a query that displays the market dates with the highest and lowest total sales.
